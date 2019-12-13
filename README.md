@@ -24,23 +24,23 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
-- [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+- [✅] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
     > React JS is a user interface component library. It deals with complex state and is extremely scalable.
 
-- [ ] What does it mean to _think_ in react?
+- [✅] What does it mean to _think_ in react?
 
     > To plan your project with the correct configuration and layout of components.
 
-- [ ] Describe state.
+- [✅] Describe state.
 
     > State is a peice of data that you want to be able to manipulate without reloading the page.
 
-- [ ] Describe props.
+- [✅] Describe props.
 
     > Using props we can pass data from one component to the next component by a heigharchy relationship.
 
-- [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+- [✅] What are side effects, and how do you sync effects in a React component to state or prop changes?
 
     > Side effects help stop React from infinitly re painting the DOM. React renders everytime it sees a change in state, but useEffect() can help stop that re painting or tell React to only re paint the DOM when specific states are changed.
 

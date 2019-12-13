@@ -1,8 +1,10 @@
 import React from 'react';
+import ModalButton from './ModalButton';
 import {
     Card, CardImg, CardText, CardBody,
     CardTitle, CardSubtitle, Button
   } from 'reactstrap';
+
 
 
 const cardStyles = {
@@ -21,7 +23,8 @@ const cardStyles = {
             <CardTitle><h2>{props.personData.name}</h2></CardTitle>
             <CardSubtitle>Gender: {props.personData.gender}</CardSubtitle>
             <CardText>Birthdate: {props.personData.birth_year}</CardText>
-            <Button color="primary" >See More</Button>
+            {/* <Button color="primary" >See More</Button> */}
+            <ModalButton personData={props.personData} />
           </CardBody>
         </Card>
       </div>
