@@ -25,7 +25,6 @@ const ModalButton = (props) => {
             <h3><strong>Skin Color: </strong>{props.personData.skin_color}</h3>
           </ModalBody>
           <ModalFooter>
-            <Button color="primary" onClick={toggle}>Do Something</Button>{' '}
             <Button color="secondary" onClick={toggle}>Cancel</Button>
           </ModalFooter>
         </Modal>
